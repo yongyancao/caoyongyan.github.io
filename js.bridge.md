@@ -21,11 +21,12 @@
 |onPauseReport|无|void|暂停语音播报
 |onResumeReport|无|void|恢复或继续语音播报
 
-#####接收推送能力(JS端定义的方法)
+#####原生回调能力(JS端定义的方法)
 
 |方法|参数|返回值|描述|
 |:---|:--|:---|:---|
 |onJPushMessage|string msg|void|后台推送的消息，用于处理内部逻辑(原生提供消息解密)
+|onSpeakProgress|int percent,int beginPos,int endPos|void|原生语音播报进度监听，参数1：百分比，参数2：开始值，参数3：结束值
 
 #####原生生命周期(JS端定义的方法)
 
