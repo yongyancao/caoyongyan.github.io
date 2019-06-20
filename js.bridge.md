@@ -28,6 +28,7 @@
 |onJPushMessage|string msg|void|后台推送的消息，用于处理内部逻辑(原生提供消息解密)
 |onSpeakPaused|无|void|语音播报停止
 |onSpeakProgress|int percent,int beginPos,int endPos|void|原生语音播报进度监听，参数1：百分比，参数2：开始值，参数3：结束值
+|onReportCompleted|无|void|语音播报完成回调
 
 #####原生生命周期(JS端定义的方法)
 
